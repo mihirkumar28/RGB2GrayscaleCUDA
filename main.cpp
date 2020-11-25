@@ -39,7 +39,7 @@ int main() {
 	constexpr auto warmups = 100;
 	constexpr auto runs = 2000;
 	constexpr bool weighted_averaging = true;
-	constexpr char name[] = "Shreeja.jpeg";
+	constexpr char name[] = "mihir.jpg";
 	// --------------------------------
 
 
