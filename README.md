@@ -1,10 +1,3 @@
-CUDA implementation of RGB to grayscale.
-Roughly 5x to 30x faster than OpenCV's implementation
-
-All functionality is contained in CUDARGB2Y.h and CUDARGB2Y.cu
-
-make -f Makefile
-
 ## CUDA based implementation for RGB to Grayscale conversion.
 ### Implemented a parallel algorithm from conversion of an image in RGB colour scheme to grayscale colour scheme.
 
@@ -55,4 +48,10 @@ In the project, following have been used
 
 Input: Image in RGB Colour Format
 Output: Image in Grayscale
+Roughly 5x to 30x faster than OpenCV's implementation
 
+All functionality is contained in CUDARGB2Y.h and CUDARGB2Y.cu
+
+#### To Run
+* make -f Makefile
+* ./RGB2G_CUDA
